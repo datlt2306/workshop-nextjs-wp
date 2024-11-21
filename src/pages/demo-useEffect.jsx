@@ -1,6 +1,12 @@
 import React, { useEffect, useState } from "react";
 
 const DemoUseEffect = () => {
+    // client state:
+    // - useContext + useReducer => techstack
+    // - redux toolkit + redux toolkit query
+    // - recoil + react-query
+    // - zustand + react-query
+
     const [products, setProducts] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
     const [isError, setIsError] = useState("");
